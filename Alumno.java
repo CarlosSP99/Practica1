@@ -11,7 +11,7 @@ import java.util.List;
 
 @XmlRootElement(name = "alumno") // Este nombre debe coincidir con el XML
 public class Alumno {
-    private static String path = "C:\\Users\\csper\\Desktop\\DAM\\Practica1_ACCESO_DATOS\\src\\main\\resources\\Alumnos.xml";
+    private static String path = "src/main/resources/Alumnos.xml";
 
     private String nombre;
     private String apellido;
